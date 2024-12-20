@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- style.css for just in case tailwind doesn't cover all our bases -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Alpine CDN -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+      theme: {
+        fontFamily: {
+            // logo font
+            'create': ['Create Round Regular', 'sans-serif'],
+            // text font
+            'arimo':  ['Arimo', 'sans-serif'],
+        },
+        extend: {
+          colors: {
+            // Unflipped cards and accents/decorations
+            'blue-1': '#60b1e9',
+            'blue-2': '#4b9eee',
+            'blue-3': '#135eba',
+            // Flipped cards
+            'blue-4': '#2774cd',
+            'blue-5': '#194976',
+            // borders
+            'orange-1': '#fcaa0d',
+            'orange-2': '#ce7a2b',
+            // backdrop
+            'brown-1': '#835a00',
+            'brown-2': '#4a2d14',
+            'lights': '#f6f2db',
+            // logo colors outside of the ones that can be reused above
+            'logo-yellow': '#ffe23f',
+          },
+          backgroundImage: {
+            'logo-text-gradient': "linear-gradient(0deg, rgba(255,226,63,1) 0%, rgba(252,170,13,1) 50%, rgba(206,122,43,1) 100%)",
+            // logo background gradient using blue 1 blue 2 and blue 3
+            // flipped card gradient using blue 4 and blue 5
+            // unflipped card gradient using blue 1 blue 2 and blue 3
+            // background graident using brown 1 and brown 2 (alternates back and forth repeating almost like a neon tube?)
+            // border gradient using orane 2 orange 1 and orange 2 (goes dark light dark)
+          }
+        }
+      }
+    }
+    </script>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts.css">
+
+</head>
+<body>
+    <h1 class="font-create"> LPD FAMILY FEUD </h1>
+</body>
+</html>

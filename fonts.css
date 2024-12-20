@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Crete+Round:ital@0;1&display=swap');
+
+/* Logo Fonts */
+
+.crete-round-regular {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .crete-round-regular-italic {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /* Board Fonts */
+
+.arimo {
+  font-family: "Arimo", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.arimo-regular {
+  font-family: "Arimo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.arimo-medium {
+  font-family: "Arimo", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.arimo-semibold {
+  font-family: "Arimo", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.arimo-bold {
+  font-family: "Arimo", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
