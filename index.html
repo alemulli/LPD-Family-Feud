@@ -16,7 +16,7 @@
       theme: {
         fontFamily: {
             // logo font
-            'crete': ['Crete Round', 'sans-serif'],
+            'playfair': ['Playfair Display', 'serif'],
             // text font
             'arimo':  ['Arimo', 'sans-serif'],
         },
@@ -41,11 +41,12 @@
           },
           backgroundImage: {
             'logo-text-gradient': "linear-gradient(0deg, rgba(255,226,63,1) 0%, rgba(252,170,13,1) 50%, rgba(206,122,43,1) 100%)",
-            // logo background gradient using blue 1 blue 2 and blue 3
+            'logo-background-gradient': "linear-gradient(180deg, rgba(96,177,233,1) 0%, rgba(75,158,238,1) 35%, rgba(19,94,186,1) 100%);",
+            'logo-border-gradient-1': "linear-gradient(170deg, #fff 0%, #4b9eee 40%, #000 80%)",
+            'logo-border-gradient-2': "repeating-linear-gradient(180deg, #e06c39 9%, #c42d26 11%, #e06c39 13%, #e06c39 24%, #c42d26 26%, #e06c39 28%, #e06c39 33%, #c42d26 34%, #e06c39 35%, #e06c39 40%, #c42d26 41%, #e06c39 42%, #e06c39 57%, #c42d26 58%, #e06c39 59%)",
             // flipped card gradient using blue 4 and blue 5
             // unflipped card gradient using blue 1 blue 2 and blue 3
             // background graident using brown 1 and brown 2 (alternates back and forth repeating almost like a neon tube?)
-            // border gradient using orane 2 orange 1 and orange 2 (goes dark light dark)
           }
         }
       }
@@ -55,7 +56,53 @@
     <link rel="stylesheet" href="fonts.css">
 
 </head>
-<body>
-    <h1 class="font-crete"> LPD FAMILY FEUD </h1>
+<body class="">
+  <!-- First Blue Outline -->
+  <div class="bg-logo-border-gradient-1 aspect-[500/250] flex items-center justify-center rounded-[50%]">
+    <!-- Orange Outline -->
+    <div class="bg-logo-border-gradient-2 aspect-[500/250] w-[97%] rounded-[50%]">
+    <div class="font-playfair text-5xl flex flex-col items-center justify-center">
+      <!-- LPD -->
+      <!-- L -->
+      <div class="flex flex-row">
+        <div class="relative">
+          <div class="logo-outline-text">
+            L
+          </div>
+          <div class="absolute inset-0 logo-bevel-text">
+            L</div>
+          <div class="absolute inset-0 logo-gradient-text">
+            L</div>
+        </div>
+        <!-- P -->      
+        <div class="relative">
+          <div class="logo-outline-text">
+            P
+          </div>
+          <div class="absolute inset-0 logo-bevel-text">
+            P</div>
+          <div class="absolute inset-0 logo-gradient-text">
+            P</div>
+        </div>
+        <!-- D -->
+        <div class="relative">
+          <div class="logo-outline-text">
+            D
+          </div>
+          <div class="absolute inset-0 logo-bevel-text">
+            D</div>
+          <div class="absolute inset-0 logo-gradient-text">
+            D</div>
+        </div>
+      </div>
+
+      <!-- Family -->
+      <div class="logo-gradient-text"><span>F</span><span>AMIL</span><span>y</span></div>
+
+      <!-- Feud -->
+      <div class="logo-gradient-text"><span>F</span><span>EUD</span></div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

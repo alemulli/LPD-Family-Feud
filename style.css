@@ -1,0 +1,26 @@
+.logo-gradient-text{
+    background: linear-gradient(0deg, rgba(255,226,63,1) 0%, rgba(252,170,13,1) 50%, rgba(206,122,43,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.logo-bevel-text {
+    background: linear-gradient(180deg, rgba(255,226,63,1) 22%, rgba(0,0,0,0.5) 25%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(101%);
+    font-weight: 800;
+
+}
+
+.logo-outline-text {
+    background: linear-gradient(0deg, rgba(255,226,63,1) 0%, rgba(252,170,13,1) 50%, rgba(206,122,43,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(103%);
+    font-weight: 900;
+}
